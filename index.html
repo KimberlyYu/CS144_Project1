@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Games</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toggle-btn">
+    <button id="theme-toggle" aria-label="Toggle Theme">
+      <span id="theme-label">Night Mode 🌙</span>
+    </button>
+  </div>
+  <header>
+    <h1>My Favorite Games</h1>
+  </header>
+
+  <main>
+    <section id="animal-crossing">
+      <h2>Animal Crossing</h2>
+      <img src="ac.jpg" alt="animal crossing picnic">
+      <p>
+        Animal Crossing is a cozy life simulation game where you build your island paradise and make friends with cute animal villagers.<br>
+        My favorite parts about the game: 
+      </p>
+
+      <ul>
+        <li>
+          being able to dress up my character
+          <ul>
+            <li>obtaining clothing designs from real-life players</li>
+          </ul>
+        </li>
+        <li>
+          decorating my island and home
+          <ul>
+            <li>building my own furniture and paying alpacas to customize it</li>
+          </ul>
+        </li>
+        <li>chatting with villagers and listening to their jokes</li>
+        <li>cooking various foods and baking desserts</li>
+        <li>catching big fish and rare bugs</li>
+      </ul>
+      
+      <img src="ac4.jpg" alt="animal crossing clothes">
+      <img src="ac2.jpg" alt="animal crossing room">
+      <img src="ac5.jpg" alt="animal crossing villager">
+
+      <p>
+        You can find more info about the game on the
+        <a href="https://www.animal-crossing.com/" target="_blank">Animal Crossing</a> website.
+      </p>   
+
+    </section>
+
+    <section id="stardew-valley">
+      <h2>Stardew Valley</h2>
+      <img src="stardew.jpg" alt="stardew valley farm">
+      <p>
+        Stardew Valley is a relaxing farming RPG where you grow crops, raise animals, and build relationships with villagers.
+        One of my favorite parts of the game is the music. Dance of the Moonlight Jellies is one song I especially like.
+      </p>
+
+      <section class="grid-gallery">
+        <div class="grid-item span-cols">
+          <h2>Cozy Mod Aesthetic</h2>
+          <p>Scenes from charming aesthetic mods.</p>
+        </div>
+        <div class="grid-item"><img src="sd2.jpg" alt="cottage mod"></div>
+        <div class="grid-item"><img src="sd7.jpg" alt="farm mod"></div>
+        <div class="grid-item"><img src="sd4.jpg" alt="flowers mod"></div>
+        <div class="grid-item">🩰 Pastel Cottage</div>
+        <div class="grid-item">🧸 Soft-toned Barn</div>
+        <div class="grid-item">🎐 Delicate Flowers</div>
+      </section>
+
+      <section class="flexbox-cards">
+        <h2 class="fancy-title decorated">some of my favorite mods</h2>
+        <div class="card">
+          <img src="sd.jpg" alt="trees">
+          <p>whimsical garden vibe</p>
+        </div>
+        <div class="card">
+          <img src="sd6.jpg" alt="kitchen">
+          <p>dreamy muted kitchen</p>
+        </div>
+        <div class="card">
+          <img src="sd8.jpg" alt="winter">
+          <p>wintery vibes with fluffy dog</p>
+        </div>
+      </section>
+
+      <section class="styled-text">
+        <h3 class="fancy-title">Modding</h3>
+        <p class="decorated">
+          I enjoy modding the game by exploring the internet for different mods—especially Korean ones. 
+          They often feature an incredible variety of cute, creative, and artistically rich designs.
+          Check out this <a href="https://www.nexusmods.com/stardewvalley" target="_blank">modding site</a> for Stardew mods!
+          You can also find more info and updates on the <a href="https://www.stardewvalley.net/" target="_blank">Stardew Valley</a> website.
+        </p>
+      </section>
+      
+      <form class="styled-form">
+        <fieldset>
+          <legend>Join the Cozy Mod Club</legend>
+      
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required pattern="[A-Za-z0-9]{3,}">
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="bday">Birthday:</label>
+          <input type="date" id="bday" name="bday" required min="1900-01-01" max="2025-12-31">
+      
+          <button type="submit">✨ Join Now ✨</button>
+        </fieldset>
+      </form>  
+   
+    </section>
+  </main>
+
+  <footer>
+    <p>By Kimberly Yu🎐🐇🫧</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
